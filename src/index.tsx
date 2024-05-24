@@ -10,16 +10,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <ConfigProvider
-      theme={{
-        algorithm: theme.defaultAlgorithm,
-        token: {
-          colorPrimary: "#3d7cef",
-        },
-      }}
-    >
-      <App />
-    </ConfigProvider>
+    <App />
   </React.StrictMode>
 );
 
