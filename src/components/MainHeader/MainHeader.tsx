@@ -9,11 +9,11 @@ type MenuItem = Required<MenuProps>["items"][number];
 
 const items: MenuItem[] = [
   {
-    label: <Link to={"/"}>Home Page</Link>,
+    label: <Link to={"/"}>Bio</Link>,
     key: "1",
   },
   {
-    label: <Link to={"/AboutMe"}>About Me</Link>,
+    label: <Link to={"/Portfolio"}>Portfolio</Link>,
     key: "2",
   },
 

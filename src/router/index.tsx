@@ -1,7 +1,8 @@
 import React from "react";
 import { useRoutes } from "react-router-dom";
 import MainLayout from "../layouts/MainLayout/MainLayout";
-import MainPage from "../pages/MainPage";
+import MainPage from "../pages/MainPage/MainPage";
+import PortfolioPage from "../pages/PortfolioPage/PortfolioPage";
 
 const Router = () =>
   useRoutes([
@@ -22,10 +23,10 @@ const Router = () =>
       ),
     },
     {
-      path: "/AboutMe",
+      path: "/Portfolio",
       element: (
         <MainLayout>
-          <>About Me</>
+          <PortfolioPage />
         </MainLayout>
       ),
     },
